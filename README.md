@@ -9,3 +9,6 @@ Requirement to get it working:
   - the third is 1 when the case is marked with a one else 0  
   - etc.. for all the possible valor
 - Output Data are 1 matrix whit 1 if the case is a bomb else 0 
+
+Data:
+https://drive.google.com/drive/folders/1ASo_4GqdCg74doGOC-rjC-izMqJ8PsN0?usp=sharing
