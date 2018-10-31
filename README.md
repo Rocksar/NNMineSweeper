@@ -1,5 +1,6 @@
 # NNMineSweeper
 Convolutional Neural Network, Predict Position of Bomb on a mineSweeper Board with a 80% accuracy 
+
 Requirement to get it working:
 - A Python 3.5 environment with TensorFlow and Keras Working properly
 - Input Data-type are 10 matrix n * m each represent the board:
