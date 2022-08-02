@@ -6,7 +6,7 @@ Created on Mon Aug 13 16:14:42 2018
 """
 import numpy as np
 from random import randint
-def partie(x,y,bombes,nbclic):
+def partie(x,y,bombes,nbclic,filename):
     
     #initialisation des matrices
     
@@ -97,14 +97,14 @@ def partie(x,y,bombes,nbclic):
                 if test[x+1][y+1]==8:
                     matrice8[x][y]=1
                     
-    file=open("C:/Users/Roland/Desktop/Donnees_Demineur_5_31_test_output_5000.txt",'a+')
+    file=open(filename+'output.txt','a+')
     
     for i in matricebombes:
         file.write(str(i)[1:len(str(i))-1]+"\n")
         
     file.close()        
     
-    file=open("C:/Users/Roland/Desktop/Donnees_Demineur_5_31_test_input_5000.txt",'a+')
+    file=open(filename+'input.txt','a+')
     
     for i in afficher:
         file.write(str(i)[1:len(str(i))-1]+"\n")
@@ -129,6 +129,6 @@ def partie(x,y,bombes,nbclic):
         
     file.close()
     
-for i in range(0,5000):
-    partie(5,31,30,40)
-    print(i)
+for i in range(0,6000):
+    partie(32,32,30,40,"Train")
+    # print(i)

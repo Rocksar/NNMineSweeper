@@ -12,3 +12,4 @@ Requirement to get it working:
 
 Data:
 https://drive.google.com/drive/folders/1ASo_4GqdCg74doGOC-rjC-izMqJ8PsN0?usp=sharing
+or genereate with Data Generator.py
