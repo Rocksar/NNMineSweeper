@@ -10,6 +10,12 @@ Requirement to get it working:
   - etc.. for all the possible valor
 - Output Data are 1 matrix whit 1 if the case is a bomb else 0 
 
+
+Install:work with pip over conda i guess
+conda install tensorflow
+conda install matplotlib (can have a lot of conflict with conda forcing it with pip is correct)
+conda install keras
+
 Data:
 https://drive.google.com/drive/folders/1ASo_4GqdCg74doGOC-rjC-izMqJ8PsN0?usp=sharing
 or genereate with Data Generator.py
